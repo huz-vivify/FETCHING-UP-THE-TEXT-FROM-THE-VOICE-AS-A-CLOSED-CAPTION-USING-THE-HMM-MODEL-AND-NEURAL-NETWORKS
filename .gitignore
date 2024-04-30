@@ -1,0 +1,17 @@
+# Ignore Secrets
+.streamlit/secrets.toml
+.env
+.DS_Store
+
+# Ignore Models
+*.pt
+
+# Ignore Audio Files
+*.wav
+*mp3
+*m4a
+
+
+vector_store/local/index.faiss
+vector_store/local/index.pkl
+.vscode/settings.json
